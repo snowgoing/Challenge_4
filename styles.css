@@ -1,7 +1,14 @@
 * {
 	box-sizing: border-box;
 }
-
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
 body {
 	background-image: url(assets/bg.jpg);
 	background-size: cover;
@@ -27,7 +34,7 @@ body {
 	color: white;
 	font-size: 7px;
 	text-decoration: none;
-	margin-right: 50px;
+	margin-right: 45px;
 	margin-top: -3px;
 	margin-left: 380px;
 
@@ -115,15 +122,15 @@ nav a img {
 	height: 150px;
 }
 .founders img {
-	position: relative;
 	border: 2px solid white;
 	vertical-align: top;
 	float: left;
 	margin-top: 8px;
 	margin-left: 4px;
 }
+
 .tommy {
-	float: right;		
+	float: left;		
 	margin-top: -142px;
 	margin-right: 162px;
 	border: 2px solid white;
@@ -231,4 +238,53 @@ input[type=submit] {
 	margin-top: 1px;
 	width: 10px;
 	height: 10px;
+}
+
+p#lance {
+	font-size: 16px;
+	font-weight: 900;
+	font-family: Arial;	
+	color: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 350px;
+	left: 165px;
+	align-content: center;	 
+}
+p#rodney {
+	font-size: 16px;
+	font-weight: 900;
+	font-family: Arial;	
+	color: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 350px;
+	left: 325px;
+	align-content: center;
+}
+p#tommy {
+	font-size: 16px;
+	font-weight: 900;
+	font-family: Arial;	
+	color: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 390px;
+	left: 425px;
+	align-content: center;
+}
+p#steve {
+	font-size: 16px;
+	font-weight: 900;
+	font-family: Arial;	
+	color: white;
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 440px;
+	left: 205px;
+	align-content: center;
 }
